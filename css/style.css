@@ -1,0 +1,31 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.output {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.element {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color:blue;
+}
+
+.green {
+    color:green;
+}
