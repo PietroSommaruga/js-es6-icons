@@ -118,7 +118,7 @@ const output = document.querySelector('.output');
 
 // ----------------------------------------------
 function createCard(objects) {
-    return `<i class="element ${objects.family} ${objects.prefix}${objects.name} ${objects.color}"></i>`;
+    return `<i class="box ${objects.family} ${objects.prefix}${objects.name} ${objects.color}"></i>`;
   }
 
 //   stampo tutte le card
